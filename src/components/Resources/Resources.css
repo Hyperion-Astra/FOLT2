@@ -1,0 +1,40 @@
+.resource{
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.first>h1{
+    text-align: center;
+    color: orange;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.pics{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.face>img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin: auto;
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    text-align: center;
+}
+.face{
+    line-height: 19.2px;
+    text-align: start;
+    letter-spacing: normal;
+}
+
+.face>p{
+    /* text-align: center; */
+    line-height: 20.8px;
+}

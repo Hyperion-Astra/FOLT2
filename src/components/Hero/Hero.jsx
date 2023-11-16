@@ -38,7 +38,7 @@ const Hero = () => {
                 </div>
                 <div className="flexCenter hero-right">
                     <div className="image-container">
-                        <img src="./hero-image.png" alt="" />
+                        {/* <img src="./hero-image.png" alt="" /> */}
                     </div>
                 </div>
             </div>
