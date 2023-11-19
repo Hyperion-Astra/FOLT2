@@ -10,7 +10,7 @@ const Services = () => {
     }, []);
 
     return (
-    <section className='serve'>
+    <section className='serve' id="services">
         <div data-aos = "fade-right" className="left-sec">
             <h1>Accelerate & Revive your business with our <span className='enterprise'>Enterprise Software Services</span></h1>
             <div className="wand">

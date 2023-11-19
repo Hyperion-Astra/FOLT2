@@ -1,21 +1,23 @@
 import React from 'react'
 import './Header.css'
-
+import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom';
 
 const Header = () => {
+const location = useLocation();
     return (
     <div>
         <section className="h-wrapper">
             <div className="flexCenter paddings innerWidth h-container">
-                <img src="./logo.png" alt="Logo" width={100} />
+                <Link to="/"><img src="./logo.png" alt="Logo" width={100} /></Link>
 
             <div className="flexCenter h-menu">
-                <a href="">Services</a>
-                <a href="">Technologies</a>
-                <a href="">Portfolio</a>
-                <a href="">FoltLab</a>
-                <a href="">Investors</a>
-                <a href="">About</a>
+                <Link  to="/#services">Services</Link>
+                <Link  to="/technologies">Technologies</Link>
+                <Link  to="/portfolio">Portfolio</Link>
+                <Link  to="/foltlab">FoltLab</Link>
+                <Link  to="/investors">Investors</Link>
+                <Link  to="/about">About</Link>
                 <button className="button">Let's connect </button>
             </div>
             </div>
@@ -23,5 +25,6 @@ const Header = () => {
     </div>
 )
 }
+
 
 export default Header

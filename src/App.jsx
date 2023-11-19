@@ -1,30 +1,31 @@
-import Header from "./components/Header/Header"
-import Hero from "./components/Hero/Hero";
 import './App.css'
-import ImageSlider from './components/ImageSlider';
-import { SliderData } from './components/sliderData';
-import Resources from "./components/Resources/Resources";
-import Services from "./components/Services/Services";
-import Box from "./components/Box/Box";
-import Governance from "./components/Governance/Governance";
-import Growth from "./components/Growth/Growth";
-
+import {Link, Routes} from "react-router-dom"; 
+import Home from "./components/pages/Home";
+import { Router, Route } from 'react-router-dom';
+import Nservices from './components/pages/Nservices';
+import Technologies from './components/pages/Technologies'
+import Portfolio from './components/pages/Portfolio'
+import Foltlab from './components/pages/Foltlab'
+import Investors from './components/pages/Investors'
+import About from './components/pages/About'
 
 function App() {
   return (
-    <div className="App">
-      <div>
-        <div className="white-gradient" />
-      <Header />
-      <Hero />
-      </div>
-      <Services />
-      <Box />
-      <Growth />
-      <Governance />
-      <Resources />
-      <ImageSlider slides={SliderData} />;
+    <div>
+      <Home />
+      {/* <Router>
+        <Route path="/technologies" Component={Nservices} exact />
+      </Router> */}
+      {/* <Router>
+        <Route path="/services" Component={Nservices} exact />
+        <Route path="/technologies" Component={Technologies} exact />
+        <Route path="/portfolio" Component={Portfolio} exact />
+        <Route path="/foltlab" Component={Foltlab} exact />
+        <Route path="/investors" Component={Investors} exact />
+        <Route path="/about" Component={About} exact />
+      </Router> */}
     </div>
+    
     );
 }
 
