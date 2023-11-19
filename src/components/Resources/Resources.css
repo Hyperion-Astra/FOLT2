@@ -2,12 +2,13 @@
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 25px;
+    margin-top: 50px;
 }
 .first>h1{
     text-align: center;
-    color: rgb(255, 128, 0);
+    color: rgb(255, 102, 0);;
     margin-top: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     font-size: 50px;
 }
 .pics{

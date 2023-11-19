@@ -54,24 +54,6 @@ div.omrs-input-group {
 	outline: none;
 }
 
-.omrs-input-underlined > .omrs-input-label,
-.omrs-input-filled > .omrs-input-label {
-	position: absolute;
-	top: 0.9375rem;
-	left: 0.875rem;
-	line-height: 147.6%;
-	color: var(--omrs-color-ink-medium-contrast);
-	transition: top .2s;
-}
-
-.omrs-input-underlined > svg,
-.omrs-input-filled > svg {
-	position: absolute;
-	top: 0.9375rem;
-	right: 0.875rem;
-	fill: var(--omrs-color-ink-medium-contrast);
-}
-
 .omrs-input-underlined,
 .omrs-input-filled {
 	font-size: 0.9375rem;
@@ -95,18 +77,18 @@ div.omrs-input-group {
 	margin-bottom: 32px;;
 }
 
-.omrs-input-underlined:not(.omrs-input-danger) > input:focus + .omrs-input-label,
-.omrs-input-filled:not(.omrs-input-danger) > input:focus + .omrs-input-label {
+.omrs-input-underlined > input:focus + .omrs-input-label,
+.omrs-input-filled > input:focus + .omrs-input-label {
 	color: var(--omrs-color-interaction);
 }
 
-.omrs-input-underlined:not(.omrs-input-danger) > input:focus,
-.omrs-input-filled:not(.omrs-input-danger) > input:focus {
+.omrs-input-underlined > input:focus,
+.omrs-input-filled > input:focus {
 	border-color: var(--omrs-color-interaction);
 }
 
-.omrs-input-underlined:not(.omrs-input-danger) > input:focus ~ svg,
-.omrs-input-filled:not(.omrs-input-danger) > input:focus ~ svg {
+.omrs-input-underlined > input:focus,
+.omrs-input-filled > input:focus {
 	fill: var(--omrs-color-ink-high-contrast);
 }
 :root {
@@ -125,7 +107,7 @@ div.omrs-input-group {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 a {
   color: inherit;

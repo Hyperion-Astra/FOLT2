@@ -1,9 +1,18 @@
 import React from 'react'
 import './Resources.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
+
 
 const Resources = () => {
+    
+    useEffect(() => {
+        Aos.init({duration: 1200})
+    }, []);
+
     return (
-    <section className='resource'>
+    <section data-aos = "fade-right" className='resource'>
         <div className="first">
             <h1>We Are Folt Crest Resources</h1>
         </div>
