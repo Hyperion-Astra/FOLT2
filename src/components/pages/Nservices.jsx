@@ -4,6 +4,17 @@ import Header from '../Header/Header'
 const Nservices = () => {
   return (
     <div>
+      <div><h1>E-Governance<br /> <span>Services</span></h1>
+      <p>Our rich expertise in developing Government IT solutions allow us to drive next-gen innovations in the spheare of government.
+        <br /> We also partner with government agensies to modernise their legacy Infrastructure
+      </p>
+      <ul>
+        <li>E-Governance Platforms Development</li>
+        <li>Style Window Solution & Dashboards</li>
+        <li>G2C, G2B, G2G Portal</li>
+        <li>Manpower Services</li>
+      </ul>
+      </div>
         <section className='serve'>
         <div data-aos = "fade-right" className="left">
             <img src="./mss/Services-Enterprise-Service.jpg" alt="llt" />

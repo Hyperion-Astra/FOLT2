@@ -9,7 +9,7 @@ const location = useLocation();
     <div>
         <section className="h-wrapper">
             <div className="flexCenter paddings innerWidth h-container">
-                <Link to="/"><img src="./logo.png" alt="Logo" width={100} /></Link>
+                <Link to="/"><img src="/crest-preview.png" alt="Logo" width={100} /></Link>
 
             <div className="flexCenter h-menu">
                 <Link  to="/#services">Services</Link>
@@ -18,7 +18,7 @@ const location = useLocation();
                 <Link  to="/foltlab">FoltLab</Link>
                 <Link  to="/investors">Investors</Link>
                 <Link  to="/about">About</Link>
-                <button className="button">Let's connect </button>
+                <Link to="/contact">Contact</Link>
             </div>
             </div>
         </section>

@@ -1,0 +1,11 @@
+.c-left{
+    gap: 0.5rem;
+}
+.icons{
+    padding: 5px;
+    background: #eeeeff;
+    border-radius: 5px;
+}
+.icons svg{
+    fill: var(--blue);
+}

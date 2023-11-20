@@ -164,6 +164,27 @@ ul{
 
 }
 
+.simple-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 180px;
+}
+
+.simple-card-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.simple-card-title {
+  margin: 0;
+  padding: 8px;
+  font-size: 16px;
+  text-align: center;
+}
+
+
 .flexEnd {
   display: flex;
   justify-content: flex-end;

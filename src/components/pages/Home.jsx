@@ -8,22 +8,9 @@ import Governance from '../Governance/Governance';
 import Experience from '../experience/Experience';
 import Resources from '../Resources/Resources';
 import Footer from '../Footer';
-import { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import Contact from '../contact/contact';
 
 const Home = () => {
-
-    useEffect(() => {
-        if (location.hash) {
-        const element = document.querySelector(location.hash);
-        if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-        }
-    } else {
-        window.scrollTo(0, 0);
-    }
-    }, [location]);
-
 
 return (
 <div>
@@ -39,6 +26,7 @@ return (
     <Governance />
     <Experience />
     <Resources />
+    <Contact />
     <Footer />
 </div>
 </div>
