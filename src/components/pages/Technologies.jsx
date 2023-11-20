@@ -1,9 +1,12 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
+import Header from '../Header/Header';
 
 function Technologies() {
   return (
-    <Table striped bordered hover>
+    <section>
+      <Header />
+      <Table striped bordered hover>
       <thead>
         <tr>
           <th>Microsoft</th>
@@ -19,7 +22,7 @@ function Technologies() {
       <tbody>
         <tr>
           <td><img src="./te2pics/microsoft-azure-logo.jpg" alt="llt" /></td>
-          <td><img src="./node.jpg" alt="llt" /></td>
+          <td><img src="./tech/node.png" alt="llt" /></td>
           <td><img src="./tech/andriod.jpg" alt="llt" /></td>
           <td><img src="./te2pics/html.jpg" alt="llt" /></td>
           <td><img src="./te2pics/apache-flink.jpg" alt="llt" /></td>
@@ -99,6 +102,7 @@ function Technologies() {
         </tr>
       </tbody>
     </Table>
+    </section>
   );
 }
 

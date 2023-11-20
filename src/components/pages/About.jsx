@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../Footer'
-const About = () => {
+
+const About = ({match:{params:{name}}}) => {
   return (
     <div>
       <section>
@@ -17,6 +18,6 @@ const About = () => {
       <Footer />
     </div>
   )
-}
+  }
 
 export default About

@@ -1,9 +1,11 @@
 import React from 'react'
 import Header from '../Header/Header'
+import Footer from '../Footer'
 
 const Nservices = () => {
   return (
     <div>
+      <Header />
       <div><h1>E-Governance<br /> <span>Services</span></h1>
       <p>Our rich expertise in developing Government IT solutions allow us to drive next-gen innovations in the spheare of government.
         <br /> We also partner with government agensies to modernise their legacy Infrastructure
@@ -123,6 +125,7 @@ const Nservices = () => {
             </ul>
             </div>
         </section>
+      <Footer />
     </div>
   )
 }
