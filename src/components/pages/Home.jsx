@@ -16,7 +16,6 @@ return (
 <div>
     <div className="App">
     <div>
-    <div className="white-gradient" />
     <Header />
     <Hero />
     </div>

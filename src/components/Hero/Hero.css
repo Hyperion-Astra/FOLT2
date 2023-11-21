@@ -1,7 +1,8 @@
 .hero-wrapper{
     color: white;
     position: relative;
-    padding-bottom: 2rem;
+    padding: 130px 0;
+
     /* background: var(--primary); */
 }
 
@@ -44,17 +45,4 @@
 }
 .stat>:nth-child(1)>:last-child{
     color: orange;
-}
-
-/* right side */
-.image-container{
-    width: 30rem;
-    height: 35rem;
-    overflow: hidden;
-    border-radius: 15rem 15rem 0 0;
-    border: 8px solid rgba(255, 255, 255, 0.12);
-}
-.image-container>img{
-    width: 100%;
-    height: 100%;
 }

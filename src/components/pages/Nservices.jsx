@@ -6,16 +6,11 @@ const Nservices = () => {
   return (
     <div>
       <Header />
-      <div><h1>E-Governance<br /> <span>Services</span></h1>
-      <p>Our rich expertise in developing Government IT solutions allow us to drive next-gen innovations in the spheare of government.
-        <br /> We also partner with government agensies to modernise their legacy Infrastructure
+      <div style={{paddingTop: "150px"}}><h1 style={{color: "#0058ae"}} className='text-center'>E-Governance <span className='enterprise'>Services</span></h1>
+      <p className='text-center'>Our rich expertise in developing Government IT solutions allow us to drive next-gen innovations in the sphere of government.
+        <br /> We also partner with government agensies to modernise their legacy Infrastructure.
       </p>
-      <ul>
-        <li>E-Governance Platforms Development</li>
-        <li>Style Window Solution & Dashboards</li>
-        <li>G2C, G2B, G2G Portal</li>
-        <li>Manpower Services</li>
-      </ul>
+      <h5 className='text-center text-secondary mt-5'>E-Governance Platforms Development | Style Window Solution & Dashboards | G2C, G2B, G2G Portal | Manpower Services</h5>
       </div>
         <section className='serve'>
         <div data-aos = "fade-right" className="left">

@@ -8,7 +8,7 @@ const location = useLocation();
     return (
     <div>
         <section className="h-wrapper">
-            <div className="flexCenter paddings innerWidth h-container">
+            <div id='contain' className="flexCenter paddings innerWidth h-container">
                 <Link to="/"><img src="/crest-preview.png" alt="Logo" width={100} /></Link>
 
             <div className="flexCenter h-menu">
