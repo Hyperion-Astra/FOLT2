@@ -5,32 +5,38 @@ import {BsFillChatDotsFill} from 'react-icons/bs'
 
 const Contact = () => {
   return (
-    <section className='c-wrapper'>
-      <div className="paddings innerWidth flexCenter c-container">
-        <div className="flexColStart c-left">
-            <span className='orangeText'>Do you want to contact us?</span>
-            <span className='primaryText'>Our Contacts</span>
-            <div className="flexColStart contactMode">
-                <div className="flexColStart row">
-                    <div className="flexColCenter mode">
-                        <div className="flexStart">
-                            <div className="flexCenter icons">
-                                <MdCall size={25}/>
-                            </div>
-                            <div className="flexColStart detail">
-                                <span>Call</span>
-                                <span>+234 704 469 4598</span>
-                            </div>
-                        </div>
-                        <div className="flexCenter button">
-                            Call Now
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </div>
-    </section>
+
+    <div className='Contact'>
+    <form className="form">
+    <p className="title">Do you want to contact us? </p>
+        <div className="flex">
+        <label>
+            <input className="input" type="text" placeholder="" required=""/>
+            <span>Firstname</span>
+        </label>
+
+        <label>
+            <input className="input" type="text" placeholder="" required=""/>
+            <span>Lastname</span>
+        </label>
+    </div>  
+            
+    <label>
+        <input className="input" type="email" placeholder="" required=""/>
+        <span>Email</span>
+    </label> 
+        
+    <label>
+        <input className="input" type="number" placeholder="" required=""/>
+        <span>Phone Number</span>
+    </label>
+    <label>
+        <input className="input p-5" type="text"  placeholder="" required=""/>
+        <span>Enter message</span>
+    </label>
+    <button className="submit">Submit</button>
+</form>
+</div>
   )
 }
 

@@ -181,3 +181,14 @@ ul{
   }
 }
 
+
+
+.forgrid {
+  padding-top: 130px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
