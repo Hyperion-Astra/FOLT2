@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';  
 import {Container, Col, } from 'react-bootstrap';
+import Header from '../Header/Header';
+import Footer from '../Footer';
 
 const Portfolio = () => {
   const imageUrlOne = './tech/network.jpg';
@@ -40,7 +42,9 @@ const Portfolio = () => {
     height: '300px', // Set the desired height
   };
   return (
-    <section style={backgrStyle}>
+    <div>
+      <Header />
+      <section style={backgrStyle}>
       <section style={backgroundStyle}>
       <div style={conStyle}>
       <h1 style={{color: '#ffffff'}}>
@@ -98,7 +102,8 @@ const Portfolio = () => {
     
     </section>
     
-    
+    <Footer />
+    </div>
   )
 }
 
