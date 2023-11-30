@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import './Services.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom'
 
 const Services = () => {
 
@@ -38,7 +39,8 @@ const Services = () => {
                 </div>
             </div>
             <div className="rep">
-                <button>Explore Enterprise Software Services</button>
+            <Link to="/services"><button>Explore Enterprise Software Services</button></Link>
+                
             </div>
 
         </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
+import Contact from './contact/contact';
 
 const Footer = () => {
     
@@ -10,7 +11,9 @@ const Footer = () => {
     }, []);
 
 return (
-    <section data-aos = "fade-right" className='lame'>
+    <div>
+        <Contact />
+        <section data-aos = "fade-right" className='lame'>
 <div className='game flexCenter'>
     <img src="./mss/nse-logo.webp" alt="llt" />
     <img src="./mss/cmmi-logo.png" alt="llt" />
@@ -19,6 +22,7 @@ return (
     <img src="./mss/sap-logo.webp" alt="llt" />
 </div>
 </section>
+    </div>
     )
 }
 

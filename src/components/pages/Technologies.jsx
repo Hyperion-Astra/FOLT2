@@ -1,6 +1,7 @@
 import React from 'react';
 import Table from 'react-bootstrap/Table';
 import Header from '../Header/Header';
+import Footer from '../Footer';
 
 
 function Technologies() {
@@ -67,6 +68,7 @@ function Technologies() {
       
       </div>
     </Table>
+    <Footer />
     </section>
   );
 }

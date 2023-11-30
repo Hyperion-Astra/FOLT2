@@ -6,7 +6,7 @@ import {BsFillChatDotsFill} from 'react-icons/bs'
 const Contact = () => {
   return (
 
-    <div className='Contact'>
+    <div className='Contact' id="contact">
     <form className="form">
     <p className="title">Do you want to contact us? </p>
         <div className="flex">

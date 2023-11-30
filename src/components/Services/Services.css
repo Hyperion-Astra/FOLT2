@@ -35,7 +35,7 @@
     color: white;
   }
 
-.rep>button{
+.rep button{
     background: var(--black);
     font-weight: 500;
     color: white;
@@ -45,7 +45,7 @@
     padding: 0.6rem 1.4rem;
 
 }
-.rep>button:hover{
+.rep button:hover{
     cursor: pointer;
     transform: scale(1.1);
     background: #0058ae;

@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom'
 
 const Growth = () => {
 
@@ -39,7 +40,7 @@ const Growth = () => {
                 </div>
             </div>
             <div className="rep">
-                <button>Explore ERP Solutions</button>
+            <Link to="/services"><button>Explore ERP Solutions</button></Link>
             </div>
 
         </div>

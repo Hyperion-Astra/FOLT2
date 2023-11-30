@@ -1,10 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./Hero.css"
 import CountUp from 'react-countup'
+import Aos from 'aos'
+import 'aos/dist/aos.css';
 
 const Hero = () => {
+     useEffect(() => {
+        Aos.init({duration: 1200})
+    }, []);
     return (
-        <section className="hero-wrapper">
+        <section className="hero-wrapper" data-aos = "fade-right">
             <div className="paddings innerWidth flexCenter hero-container">
                 <div className="flexColStart hero-left">
                     <div className="hero-title">

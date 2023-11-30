@@ -16,8 +16,7 @@ const location = useLocation();
                 <Link  to="/technologies">Technologies</Link>
                 <Link  to="/portfolio">Portfolio</Link>
                 <Link  to="/foltlab">FoltLab</Link>
-                <Link  to="/about/:name">About</Link>
-                <Link to="/contact">Contact</Link>
+                <Link  to="/about">About</Link>
             </div>
             </div>
         </section>

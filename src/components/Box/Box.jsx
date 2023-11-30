@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './Box.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
-
+import { Link } from 'react-router-dom'
 
 const Box = () => {
 
@@ -38,7 +38,7 @@ const Box = () => {
                 </div>
             </div>
             <div className="rep">
-                <button>Explore Digital Transformation Services</button>
+                <Link to="/services"><button>Explore Digital Transformation Services</button></Link>
             </div>
 
         </div>

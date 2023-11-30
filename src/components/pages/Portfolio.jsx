@@ -11,13 +11,15 @@ const Portfolio = () => {
   const imageUrlTwo = './tech/gathering.jpg';
   const imageUrlThree = './comp/crest.jpg'
   const imageUrlFour = './tech/cogwheel.png'
+
   const containerStyles = {
     display: 'flex',
     justifyContent: 'space-around',
-    borderRadius: '8px'
+    borderRadius: '8px',
+    marginBottom: '30px'
   }
   const conStyle = {
-    color: '#ff8000',
+    color: '#0058ae',
     border: '2px solid #1f3e72',
     borderRadius: '8px',
     padding: '15px',
@@ -39,7 +41,7 @@ const Portfolio = () => {
   const backgrStyle = {
     position: 'relative',
     width: '100%',
-    height: '300px', // Set the desired height
+    height: '400px', // Set the desired height
   };
   return (
     <div>
@@ -47,11 +49,11 @@ const Portfolio = () => {
       <section style={backgrStyle}>
       <section style={backgroundStyle}>
       <div style={conStyle}>
-      <h1 style={{color: '#ffffff'}}>
+      <h1 className='gree' style={{color: '#ffffff'}}>
         Portfolio
       </h1>
       <br />
-      <p>We back our experience with data and validation with successful client delivery and client satisfaction at it's pinnacle</p>
+      <p className='text-secondary'>We back our experience with data and validation with successful client delivery and client satisfaction at it's pinnacle</p>
       </div>
       <div style={containerStyles}>
       <div>
@@ -92,17 +94,18 @@ const Portfolio = () => {
       <h2>E-Governance solutions</h2>
       <p>Technology has revolutionized how Governments function and interact with the citizens globally. 
         Citizens can connect & communicate, gaining access to information with ease, in a more secure and reliable environment.
-         In the midst of globalisation, and emerging technologies, government officials are exploring new waysof connecting with the citizens.
-         <br />
-         In-Progress - BAT System (Biometric Automated Toolset)</p> 
+        In the midst of globalisation, and emerging technologies, government officials are exploring new waysof connecting with the citizens.
+        <br />
+        In-Progress - BAT System (Biometric Automated Toolset)</p> 
       </div>     
       
     </section>
 
     
     </section>
-    
-    <Footer />
+    <section>
+    </section>
+    {/* <Footer /> */}
     </div>
   )
 }

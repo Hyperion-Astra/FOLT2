@@ -25,7 +25,6 @@ return (
     <Governance />
     <Experience />
     <Resources />
-    <Contact />
     <Footer />
 </div>
 </div>
