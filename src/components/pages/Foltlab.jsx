@@ -6,27 +6,31 @@ const Foltlab = () => {
     <div>
       <Header />
       <section className='doxs'>
+      <br />
+      <br /> <br />
+      <br /> <br />
+      <br />
         <h1>Industry Demand Training Program</h1>
         <div className="boxes">
-          <div>
+          <div className='ven'>
             <img src="tab-1.png" alt="llt" />
-            <p></p>
+            <p>Artificial Intelligence &<br /> Machine Learning AI & ML</p>
           </div>
-          <div>
+          <div className='ven'>
             <img src="tab-2.png" alt="llt" />
-            <p></p>
+            <p>Robotic Process Automation<br /> RPA</p>
           </div>
-          <div>
+          <div className='ven'>
             <img src="tab-3.png" alt="llt" />
-            <p></p>
+            <p>Blockchain</p>
           </div>
-          <div>
+          <div className='ven'>
             <img src="tab-4.png" alt="llt" />
-            <p></p>
+            <p>Internet of Things IoT</p>
           </div>
-          <div>
+          <div className='ven'>
             <img src="tab-5.png" alt="llt" />
-            <p></p>
+            <p>Big Data & Analytics</p>
           </div>
         </div>
       </section>

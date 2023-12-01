@@ -9,8 +9,8 @@ import Footer from '../Footer';
 const Portfolio = () => {
   const imageUrlOne = './tech/network.jpg';
   const imageUrlTwo = './tech/gathering.jpg';
-  const imageUrlThree = './comp/crest.jpg'
-  const imageUrlFour = './tech/cogwheel.png'
+  const imageUrlThree = 'download.jfif';
+  const imageUrlFour = 'images.png'
 
   const containerStyles = {
     display: 'flex',
@@ -49,6 +49,8 @@ const Portfolio = () => {
       <section style={backgrStyle}>
       <section style={backgroundStyle}>
       <div style={conStyle}>
+      <br />
+      <br />
       <h1 className='gree' style={{color: '#ffffff'}}>
         Portfolio
       </h1>

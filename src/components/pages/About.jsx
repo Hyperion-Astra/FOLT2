@@ -7,11 +7,17 @@ const About = () => {
     <div>
       <Header />
       <section>
+      <br />
+      <br /> <br />
+      <br /> <br />
+      <br />
+      <div className='bout'>
         <h1 >OVERVIEW</h1>
-        <h2>Young</h2>
+        <h3>Young</h3>
         <h3>Agile</h3>
-        <h2>Lean</h2>
+        <h1>Lean</h1>
         <h4>Competitive</h4>
+        </div>
         <p>Folt crest Resources from the day it was established and registered with the Corporate
           Affair Commision has been endowing clients, and enterprises with its innovative IT Solutions. Our team of
           experts from all works of applied sciences work together to deliver super-smart organizational inteligience

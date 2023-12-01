@@ -19,7 +19,7 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path='/services' element={<Nservices />} />
         <Route path='/technologies' element={<Technologies />} />
-        <Route path='/foltcrestlab' element={<Foltlab />} />
+        <Route path='/foltlab' element={<Foltlab />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/about' element={<About />} />
         <Route render={() => <h1>404: page not found</h1>} />
