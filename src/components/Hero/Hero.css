@@ -2,12 +2,13 @@
     color: white;
     position: relative;
     padding: 130px 0;
+    z-index: 1;
 
     /* background: var(--primary); */
 }
 
 .hero-container{
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -22,12 +23,18 @@
 .orange-circle{
     height: 4rem;
     width: 4rem;
-    background: var(--orange-gradient);
+    background: rgba(255, 255, 0, 0.97);
     border-radius: 999px;
     position: absolute;
     right: 50%;
     top: -10%;
     z-index: -1;
+}
+Link{
+    text-decoration: none;
+}
+.button link{
+    text-decoration: none;
 }
 
 .hero-title>h1{
@@ -44,5 +51,29 @@
     font-size: 2rem;
 }
 .stat>:nth-child(1)>:last-child{
-    color: orange;
+    color: rgba(255, 255, 0, 0.97);
+}
+
+@media (max-width: 640px) {
+    .hero-container{
+        margin-top: 2rem;
+    }
+    .hero-title>h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .image-container{
+        width: 95%;
+        height: 25rem;
+    }
+    .stats{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .stat>:nth-child(1){
+        font-size: 1.5rem;
+    }
+    .stat>:nth-child(2){
+        font-size: 0.8rem;
+    }
 }

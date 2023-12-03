@@ -52,3 +52,22 @@
     color: white;
 
 }
+@media (max-width: 1024px) {
+    .serve{
+        flex-direction: column;
+    }
+    .left-sec{
+        justify-content: center;
+    }
+    .wap{
+        justify-content: center;
+        width: 100%;
+    }
+    .wand{
+        justify-content: center;
+        width: 100%;        
+    }
+    .wand>img{
+        width: 100%;
+    }
+}

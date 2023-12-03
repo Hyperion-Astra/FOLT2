@@ -39,3 +39,15 @@
     /* text-align: center; */
     line-height: 20.8px;
 }
+@media (max-width: 640px) {
+    .resource{
+        margin-top: 2rem;
+    }
+    .first>h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .face{
+        flex-direction: column;
+    }
+}
