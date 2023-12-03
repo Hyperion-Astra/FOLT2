@@ -16,19 +16,29 @@ const About = () => {
   return (
     <div>
       <Header />
-      <section>
+      <div>
+      <div style={conStyle} className='fin'>
+      <br />
+      <br />
+      <h1 className='gree' style={{color: '#ffffff'}}>
+        About
+      </h1>
+      <br />
+      </div>
+      </div>
+      <section className='stink'>
       <br />
       <br /> <br />
       <br /> <br />
       <br />
       <div className='bout'>
-        <h1 >OVERVIEW</h1>
+        <h2 >OVERVIEW</h2>
         <h3>Young</h3>
         <h3>Agile</h3>
         <h1>Lean</h1>
         <h4>Competitive</h4>
         </div>
-        <div className="paddings" style={conStyle}>
+        <div className="paddings rain">
         <p>Folt crest Resources from the day it was established and registered with the Corporate
           Affair Commision has been endowing clients, and enterprises with its innovative IT Solutions. Our team of
           experts from all works of applied sciences work together to deliver super-smart organizational inteligience

@@ -105,8 +105,6 @@ const Portfolio = () => {
 
     
     </section>
-    <section>
-    </section>
     {/* <Footer /> */}
     </div>
   )

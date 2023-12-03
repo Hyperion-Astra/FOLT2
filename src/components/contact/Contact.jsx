@@ -37,7 +37,7 @@ const Contact = () => {
     <button className="submit">Submit</button>
 </form>
 </div>
-  )
+    )
 }
 
 export default Contact
