@@ -27,11 +27,11 @@ const Resources = () => {
             </div>
             <div className='face'>
                 <img src="./tech/Wai-Icon-03.jpg" alt="tech" />
-                <p>Pan India<br /> Presence</p>
+                <p>Pan Nigerian<br /> Presence</p>
             </div>
             <div className='face'>
                 <img src="./tech/Wai-Icon-04.jpg" alt="tech" />
-                <p>Subsidiaries in<br /> US, USA and Canada</p>
+                <p>Subsidiaries all <br />over Africa</p>
             </div>
             <div className='face'>
                 <img src="./tech/Wai-Icon-05.jpg" alt="tech" />

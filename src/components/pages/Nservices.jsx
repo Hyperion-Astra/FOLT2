@@ -14,7 +14,7 @@ const Nservices = () => {
       </div>
         <section className='serve'>
         <div data-aos = "fade-right" className="left">
-            <img src="./mss/Services-Enterprise-Service.jpg" alt="llt" />
+            <img src="./tech/enterprise.jfif" alt="llt" />
         </div>
         <div data-aos = "fade-left" className="left-sec">
             <h1>Enterprise Software<span className='enterprise'> Services</span></h1>
@@ -39,12 +39,12 @@ const Nservices = () => {
             </ul>
             </div>
             <div data-aos = "fade-left" className="left">
-            <img src="./mss/Services-Digital-Transformation.jpg" alt="llt" />
+            <img src="./tech/transform.webp" alt="llt" />
         </div>
         </section>
         <section className='serve'>
         <div data-aos = "fade-right" className="left">
-            <img src="./mss/Services-ERP-Solutions.jpg" alt="llt" />
+            <img src="./tech/erp.jfif" alt="llt" />
         </div>
         <div data-aos = "fade-left" className="left-sec">
             <h1>ERP <span className='enterprise'>Solutions</span></h1>
@@ -57,7 +57,6 @@ const Nservices = () => {
             </div>
         </section>
         <section className='serve'>
-        
         <div data-aos = "fade-right" className="left-sec">
             <h1>E-Governance <span className='enterprise'>Services</span></h1>
             <ul>
@@ -68,12 +67,12 @@ const Nservices = () => {
             </ul>
             </div>
             <div data-aos = "fade-left" className="left">
-            <img src="./mss/Services-.jpg" alt="llt" />
+            <img src="./tech/egov.jpg" alt="llt" />
         </div>
         </section>
         <section className='serve'>
         <div data-aos = "fade-right" className="left">
-            <img src="./mss/managed.jpg" alt="llt" />
+            <img src="./tech/managed.jpg" alt="llt" />
         </div>
         <div data-aos = "fade-left" className="left-sec">
             <h1>Managed Security <span className='enterprise'>Services</span></h1>
@@ -103,12 +102,12 @@ const Nservices = () => {
             </ul>
             </div>
             <div data-aos = "fade-left" className="left">
-            <img src="./mss/Services-Modern-Workplace-Service.jpg" alt="llt" />
+            <img src="./tech/modern-workplace.jpg" alt="llt" />
         </div>
         </section>
         <section className='serve'>
         <div data-aos = "fade-right" className="left">
-            <img src="./mss/Services-Cloud-Solutions.jpg" alt="llt" />
+            <img src="./tech/CaaS.jpg" alt="llt" />
         </div>
         <div data-aos = "fade-left" className="left-sec">
             <h1>Cloud <span className='enterprise'>Solutions</span></h1>

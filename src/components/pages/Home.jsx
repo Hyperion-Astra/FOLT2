@@ -9,6 +9,7 @@ import Experience from '../experience/Experience';
 import Resources from '../Resources/Resources';
 import Footer from '../Footer';
 import Contact from '../contact/contact';
+import Carousel from 'react-bootstrap/Carousel';
 
 const Home = () => {
 

@@ -13,7 +13,7 @@ const Governance = () => {
     return (
     <section className='serve'>
         <div data-aos = "fade-right" className="left">
-            <img src="./tech/Home-Governance.png" alt="llt" />
+            <img src="./tech/govern.jpg" alt="llt"  style={{border: '8px solid #000080'}}/>
         </div>
         <div data-aos = "fade-left" className="left-sec">
             <h1>Working towards making Government Digital with our<span className='enterprise'> E-Governance Services</span></h1>
