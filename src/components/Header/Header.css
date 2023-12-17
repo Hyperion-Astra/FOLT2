@@ -39,7 +39,7 @@
 link{
     text-decoration: none;
 }
-h-menu>Link{
+.h-menu>Link{
     text-decoration: none;
 }
 .menu-icon{
@@ -67,3 +67,83 @@ h-menu>Link{
 
     }
 }
+
+/* Styles for the services dropdown */
+.services-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing as needed */
+  }
+  
+  .services-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Dropdown background color */
+    min-width: 600px; /* Adjust width as needed */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .services-dropdown:hover .services-dropdown-content {
+    display: block;
+  }
+  
+  /* Styles for main options */
+  .main-options {
+    padding: 10px;
+  }
+  
+  /* Styles for sub-options */
+  .sub-options {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .sub-option {
+    width: calc(33.33% - 30px);
+    margin-right: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .sub-option a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .sub-option a:hover {
+    background-color: #f0f0f0; /* Hover background color */
+    color: #000; /* Hover text color */
+  }
+  .company-dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing as needed */
+  }
+  
+  .company-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Dropdown background color */
+    min-width: 200px; /* Adjust width as needed */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .company-dropdown:hover .company-dropdown-content {
+    display: block;
+  }
+  
+  .company-dropdown-content a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    padding: 10px;
+    display: block;
+  }
+  
+  .company-dropdown-content a:hover {
+    background-color: #f0f0f0; /* Hover background color */
+    color: #000; /* Hover text color */
+  }

@@ -63,7 +63,7 @@ const Experience = () => {
 
         </div>
         <div data-aos = "fade-left" className="right-sec">
-            <img src="./tech/Home-Managed.png" alt="llt" />
+            <img src="./tech/managed.jpg" alt="llt" style={{border: '8px solid #000080'}} />
 
         </div>
     </section>

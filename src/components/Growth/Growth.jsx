@@ -45,7 +45,7 @@ const Growth = () => {
 
         </div>
         <div data-aos = "fade-left" className="right-sec">
-            <img src="./tech/Home-ERP.png" alt="" />
+            <img src="./tech/erp.jfif" alt="" style={{border: '8px solid #000080'}}/>
 
         </div>
     </section>

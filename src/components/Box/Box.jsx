@@ -13,7 +13,7 @@ const Box = () => {
     return (
     <section className='serve'>
         <div data-aos = "fade-right" className="left">
-            <img src="./tech/Home-Digital.png" alt="llt" />
+            <img src="./tech/transform.webp" alt="llt" style={{border: '8px solid #000080'}} />
         </div>
         <div data-aos = "fade-left" className="left-sec">
             <h1>Right mix of Digital & Industry experience for<span className='enterprise'> Digital Transformation</span></h1>

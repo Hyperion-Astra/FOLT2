@@ -6,11 +6,15 @@ const Foltlab = () => {
   return (
     <div>
       <Header />
+      <div className='primaryText cent'>
+        <br /><br /><br />
+        <br />
+        <h1>Live Project Training For African Youths</h1>
+        <br /><br />
+      </div>
       <section className='doxs paddings'>
       <br />
       <br /> <br />
-      <br /> <br />
-      <br />
         <h1>Industry Demand Training Program</h1>
         <div className="boxes">
           <div className='ven'>

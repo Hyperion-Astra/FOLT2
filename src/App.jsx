@@ -8,6 +8,8 @@ import About from './components/pages/About';
 import {BrowserRouter as Router, Route, Link, Routes} from "react-router-dom";
 import Header from './components/Header/Header';
 import Contact from './components/contact/contact';
+import Hero from './components/Hero/Hero';
+import WhyUsPage from './components/pages/WhyUsPage';
 
 function App() {
   const name = 'Folt Crest'
@@ -22,6 +24,8 @@ function App() {
         <Route path='/foltlab' element={<Foltlab />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/about' element={<About />} />
+        <Route path="/why-us" element={<WhyUsPage />} />
+        <Route path='/contact' element={<Contact />} />
         <Route render={() => <h1>404: page not found</h1>} />
         </Routes>
         </main>

@@ -165,7 +165,11 @@ ul{
   font-size: 1.5rem;
   font-weight: 600;
 }
-
+.cent{
+  text-align: center;
+  border: 3px solid #c7bc1b;
+  border-radius: 4px;
+}
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {

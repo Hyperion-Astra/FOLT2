@@ -12,7 +12,6 @@ const Footer = () => {
 
 return (
     <div>
-        <Contact />
         <section data-aos = "fade-right" className='lame'>
 <div className='game flexCenter'>
     <img src="./mss/nse-logo.webp" alt="llt" />

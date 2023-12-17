@@ -45,7 +45,7 @@ const Services = () => {
 
         </div>
         <div data-aos = "fade-left" className="right-sec">
-            <img src="./tech/Home-Enterprise-Software-Services.png" alt="llt" />
+            <img src="./tech/enterprise.jfif" alt="llt" style={{border: '8px solid #000080'}} />
 
         </div>
     </section>
