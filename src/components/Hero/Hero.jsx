@@ -4,55 +4,20 @@ import CountUp from 'react-countup';
 import { Link } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 
-var heroData = [
-          {
-            "id": 1,
-            "title": "BRIDGE BETWEEN PEOPLE AND GOVERNMENT",
-            "description": "Empowering Governance through digital smartness & innovation",
-            "image": "/sunset.jpg",
-            "link": "services"
-          },
-          {
-            "id": 2,
-            "title": "DIGITAL TRANSFORMATION",
-            "description": "Drive eficiency & agility with our digital transformation services",
-            "image": "/digit.jpg",
-            "link": "services"
-          },
-          {
-            "id": 3,
-            "title": "MODERN WORKPLACE SERVICES",
-            "description": "Stay Resilient & maintain Business continuity.",
-            "image": "/workplace.jpeg",
-            "link": "services"
-        },
-        {
-            "id": 4,
-            "title": "MANAGED SECURITY SERVICES",
-            "description": "Safeguard your IT Infrastructure with our proactive security services",
-            "image": "/security.jpg",
-            "link": "services"
-        }
-        ]
-
 const Hero = () => {
     return (
-        <section className="hero-block" id='home'>
-        <Carousel>
-            {
-                heroData.map(hero => {
-                    return(
-                        <Carousel.Item key={hero.id}>
-                            <img
-                            className='d-block w-100'
-                            src={hero.image}
-                            alt={"Slide" + hero.id}
-                            />
-                            <Carousel.Caption>
-                            <h1>{hero.title}</h1>
-                            <p>{hero.description}</p>
-                            <Link to={hero.link}><div className="button">Learn more</div></Link>
-                            {/* <div className="flexCenter stats">
+                <section className="hero-wrapper" data-aos = "fade-right">
+                <div className="paddings innerWidth flexCenter hero-container">
+                <div className="flexColStart hero-left">
+                    <div className="hero-title">
+                        <div className="orange-circle" />
+                        <h1>MODERN WORKPLACE <br />SERVICES</h1>
+                    </div>
+                    <div className="flexColStart hero-des">
+                        <span className='secondaryText'>Stay resilient & maintain business continuity</span>
+                        <span className='secondaryText'>Safeguard your IT infrastructure with our proactive security services</span>
+                        <Link to="/services"><div className="button">Learn more</div></Link>
+                            <div className="flexCenter stats">
                             <div className="flexColCenter stat">
                                 <span><CountUp start={2750} end={3010} duration={4} />
                                 <span>+</span></span>
@@ -68,13 +33,15 @@ const Hero = () => {
                                 <span>+</span></span>
                                 <span className='secondaryText'>Awards</span>
                             </div>
-                        </div> */}
-                            </Carousel.Caption>
-                </Carousel.Item>
-                    )
-                })
-            }
-        </Carousel>
+                        </div>
+                    </div>
+                </div>
+                        <div className="flexCenter hero-right">
+                        <div className="image-container">
+                            <img src="/itpic.png" alt="" />
+                        </div>
+                </div>
+                </div>
         </section>
     );
 }
